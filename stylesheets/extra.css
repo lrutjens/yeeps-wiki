@@ -1,0 +1,30 @@
+.md-header__button.md-logo {
+    margin-top: 25;
+    margin-bottom: -100;
+    padding-top: 10;
+    padding-bottom: -100;
+}
+  
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+    height: 2rem;
+    width: 2rem;
+}
+
+.item-image {
+    margin-top: -40px !important;
+    width: 25%;
+}
+
+.recipe-item{
+    width: 25%;
+}
+
+@media (max-width: 500px) {
+    .item-image {
+        margin-top: -50px !important;
+        margin-left: -10px !important;
+        margin-right: -10px !important;
+        width: 350px !important;
+    }
+}
